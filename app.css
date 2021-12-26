@@ -1,0 +1,17 @@
+body {
+	background: url(https://i.redd.it/ca7rhivg3z951.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+h1	{
+	color: rgb(75,100,150);
+	border-color: rgb(255,200,155);
+	border-width: 3px;
+	border-style: solid;
+}
+h4	{
+	color: white;
+}
+li {
+	color: white;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rigister</title>
+</head>
+<body>
+<form>
+	<div>
+		<label for="FN" =>First name:</label>
+		<input type="text" name="First name" id="FN" placeholder="Jhon" required/>
+
+		<label for="LN" =>Lirst name:</label>
+		<input type="text" name="Lirst name" id="LN" placeholder="Smith" required></div>
+	<div>
+		<input type="radio" id="male" name="gender" value="male" />
+		<label for="male">male</label>
+		
+		<input type="radio" id="female" name="gender" value="female" />
+		<label for="female">female</label>
+		
+		<input type="radio" id="x" name="gender" value="WTF!?" >
+		<label for="x">other</label>
+	</div>	
+	<div>
+		<label for="Email">email:</label>
+		<input type="email" name="email" id="Email" placeholder="your email" required/>
+		<label for="password">password:</label>
+		<input type="password" name="password" id="password" placeholder="your password"
+		minlength="5" maxlength="10" required />
+	</div>
+	<div>
+		<label>Birthday:</label>
+		<label for="year"></label>
+		<select name="year" for="year">
+			<option value="0" selected disabled>year</option>
+			<option value="1995">1995</option>
+			<option value="1996">1996</option>
+			<option value="1997">1997</option>
+		</select>
+		<label for="month"></label>
+		<select name="month" id="month">
+			<option value="0" selected disabled>month</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="2">2</option>
+		</select>
+		<select name="day" id="month">
+			<option value="0" selected disabled>day</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</select>
+	</div>
+	<div>
+		<label for="conditions">I agree to the terms and conditions</label>
+		<input type="checkbox" id="conditions" name="conditions" value="true"/>
+	</div>
+	<input type="submit" value="submit"/>
+</form>
+</body>
+</html>

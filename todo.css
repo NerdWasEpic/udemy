@@ -1,0 +1,9 @@
+ body{
+ 	background: gray;
+ }
+ .c{
+ 	text-decoration: line-through; ;
+ }
+ * {
+ 	border: 1px solid black;
+ }

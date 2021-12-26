@@ -1,0 +1,28 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	height: 300px;
+	object-fit: cover;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.66%;
+	border-bottom: 3px solid;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	width: 30%;
+	border-color: #f1f1f1;
+	padding-bottom: 40px;
+	}
+/*.image {
+    height: 300px;
+    object-fit: cover;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    background-size: cover;
+    background-position: center center;
+}*/
