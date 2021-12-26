@@ -1,1 +1,1 @@
-print('nigger \nbitch')
+print('lol \nlel')
